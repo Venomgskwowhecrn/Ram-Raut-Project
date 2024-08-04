@@ -1,0 +1,737 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,boby{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(251, 225, 177);
+    
+}
+.main-cont{
+  
+}
+.logo{
+    width: 120px; 
+    margin: 5px; 
+}
+.search-tag{
+    width: 350px;
+    height: 35px;
+    padding: 10px;
+    margin: 7px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(251, 225, 177);
+}
+.link-container{
+    display: flex;
+    justify-content: space-between;
+}
+.link-main{
+    text-decoration: none;
+    display: flex;
+    margin-right: 20px;
+}
+.link-master{ 
+    margin: 10px;
+    list-style: none;
+}
+.link-items{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.link-items:hover{
+    color: grey;
+}
+.header{
+    margin: 50px;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.first-header{
+    font-size: 120px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.video{
+    width: 700px;
+    height: 400px;
+}
+.video:hover{
+
+}
+.para-header{
+    margin: 50px;
+}
+.third-header{
+    font-size: 35px;
+    
+}
+.para-content{
+    font-size: 19px;
+    margin-top: 15px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.movies{
+    margin-left: 50px;
+}
+.movies-container{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.movies-content-1{
+    width: 250px;
+    height: 400px;
+    background-color: bisque;
+    padding: 15px;
+    outline: 1px solid lightgrey;
+}
+.movies-content-1:hover{
+    transform: scale(1.1);
+}
+.movies-content-1-top{
+    width: 100%;
+    height: 80%;
+    background-color: aliceblue;
+    background-image: url(return\ of\ the\ elements.jpg);
+    background-size: cover;
+}
+.movies-content-1-bottom{
+    width: 100%;
+    height: 20%;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    background-color:black;
+    border-top: 1px solid salmon;
+}
+.movies-content-1-bottom-ancor{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.movies-content-2{
+    width: 250px;
+    height: 400px;
+    background-color: bisque;
+    padding: 15px;
+    outline: 1px solid lightgrey;
+}
+.movies-content-2:hover{
+    transform: scale(1.1);
+}
+.movies-content-2-top{
+    width: 100%;
+    height: 80%;
+    background-color: aliceblue;
+    background-image: url(slug\ into\ shadown.jpg);
+    background-size: cover;
+}
+.movies-content-2-bottom{
+    width: 100%;
+    height: 20%;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    background-color:black;
+    border-top: 1px solid salmon;
+}
+.movies-content-2-bottom-ancor{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.movies-content-3{
+    width: 250px;
+    height: 400px;
+    background-color: bisque;
+    padding: 15px;
+    outline: 1px solid lightgrey;
+}
+.movies-content-3:hover{
+    transform: scale(1.1);
+}
+.movies-content-3-top{
+    width: 100%;
+    height: 80%;
+    background-color: aliceblue;
+    background-image: url(ghoul\ from\ beyond.jpg);
+    background-size: cover;   
+}
+.movies-content-3-bottom{
+    width: 100%;
+    height: 20%;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    background-color:black;
+    border-top: 1px solid salmon;
+}
+.movies-content-3-bottom-ancor{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.movies-content-4{
+    width: 250px;
+    height: 400px;
+    background-color: bisque;
+    padding: 15px;
+    outline: 1px solid lightgrey;
+}
+.movies-content-4:hover{
+    transform: scale(1.1);
+}
+.movies-content-4-top{
+    width: 100%;
+    height: 80%;
+    background-color: aliceblue; 
+    background-image: url(eastern\ caverns.jpg);
+    background-size: cover;
+}
+.movies-content-4-bottom{
+    width: 100%;
+    height: 20%;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    background-color:black;
+    border-top: 1px solid salmon;
+}
+.movies-content-4-bottom-ancor{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.Series{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.Series-container{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.Series-content-span{
+    font-size: 25px;
+}
+.Series-content-1{
+    width: 250px;
+    height: 400px;
+    background-color: bisque;
+    padding: 15px;
+    outline: 1px solid lightgrey;
+}
+.Series-content-1:hover{
+    transform: scale(1.1);
+}
+.Series-content-1-top{
+    width: 100%;
+    height: 80%;
+    background-color: aliceblue;
+    background-image: url(season-1.jpg);
+    background-size: cover;
+}
+.Series-content-1-bottom{
+    width: 100%;
+    height: 20%;
+    color: white;
+    font-size: 18px;
+    background-color:black;
+    border-top: 1px solid salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Series-content-1-bottom-ancor{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.Series-content-2{
+    width: 250px;
+    height: 400px;
+    background-color: bisque;
+    padding: 15px;
+    outline: 1px solid lightgrey;
+}
+.Series-content-2:hover{
+    transform: scale(1.1);
+}
+.Series-content-2-top{
+    width: 100%;
+    height: 80%;
+    background-color: aliceblue;
+    background-image: url(season-2.jpeg);
+    background-size: cover;
+}
+.Series-content-2-bottom{
+    width: 100%;
+    height: 20%;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    background-color:black;
+    border-top: 1px solid salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Series-content-2-bottom-ancor{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.Series-content-3{
+    width: 250px;
+    height: 400px;
+    background-color: bisque;
+    padding: 15px;
+    outline: 1px solid lightgrey;
+}
+.Series-content-3:hover{
+    transform: scale(1.1);
+}
+.Series-content-3-top{
+    width: 100%;
+    height: 80%;
+    background-color: aliceblue;
+    background-image: url(season-3.jpeg);
+    background-size: cover;   
+}
+.Series-content-3-bottom{
+    width: 100%;
+    height: 20%;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    background-color:black;
+    border-top: 1px solid salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Series-content-3-bottom-ancor{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.Series-content-4{
+    width: 250px;
+    height: 400px;
+    background-color: bisque;
+    padding: 15px;
+    outline: 1px solid lightgrey;
+}
+.Series-content-4:hover{
+    transform: scale(1.1);
+}
+.Series-content-4-top{
+    width: 100%;
+    height: 80%;
+    background-color: aliceblue; 
+    background-image: url(season-4.jpeg);
+    background-size: cover;
+}
+.Series-content-4-bottom{
+    width: 100%;
+    height: 20%;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    background-color:black;
+    border-top: 1px solid salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Series-content-4-bottom-ancor{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.Recommend{
+    margin-left: 50px;
+}
+.Recommend-container{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.Recommend-content-span{
+    font-size: 25px;
+}
+.Recommend-content-1{
+    width: 250px;
+    height: 400px;
+    background-color: bisque;
+    padding: 15px;
+    outline: 1px solid lightgrey;
+}
+.Recommend-content-1:hover{
+    transform: scale(1.1);
+}
+.Recommend-content-1-top{
+    width: 100%;
+    height: 80%;
+    background-color: aliceblue;
+    background-image: url(pokemon.jpg);
+    background-size: cover;
+}
+.Recommend-content-1-bottom{
+    width: 100%;
+    height: 20%;
+    color: white;
+    font-size: 18px;
+    background-color:black;
+    border-top: 1px solid salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Recommends-content-1-bottom-ancor{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.Recommend-content-2{
+    width: 250px;
+    height: 400px;
+    background-color: bisque;
+    padding: 15px;
+    outline: 1px solid lightgrey;
+}
+.Recommend-content-2:hover{
+    transform: scale(1.1);
+}
+.Recommend-content-2-top{
+    width: 100%;
+    height: 80%;
+    background-color: aliceblue;
+    background-image: url(beyblade.jpg);
+    background-size: cover;
+}
+.Recommend-content-2-bottom{
+    width: 100%;
+    height: 20%;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    background-color:black;
+    border-top: 1px solid salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Recommends-content-2-bottom-ancor{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.Recommend-content-3{
+    width: 250px;
+    height: 400px;
+    background-color: bisque;
+    padding: 15px;
+    outline: 1px solid lightgrey;
+}
+.Recommend-content-3:hover{
+    transform: scale(1.1);
+}
+.Recommend-content-3-top{
+    width: 100%;
+    height: 80%;
+    background-color: aliceblue;
+    background-image: url(naruto.jpg);
+    background-size: cover;   
+}
+.Recommend-content-3-bottom{
+    width: 100%;
+    height: 20%;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    background-color:black;
+    border-top: 1px solid salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Recommends-content-3-bottom-ancor{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.Recommend-content-4{
+    width: 250px;
+    height: 400px;
+    background-color: bisque;
+    padding: 15px;
+    outline: 1px solid lightgrey;
+}
+.Recommend-content-4:hover{
+    transform: scale(1.1);
+}
+.Recommend-content-4-top{
+    width: 100%;
+    height: 80%;
+    background-color: aliceblue; 
+    background-image: url(kung\ fu\ panda.jpg);
+    background-size: cover;
+}
+.Recommend-content-4-bottom{
+    width: 100%;
+    height: 20%;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    background-color:black;
+    border-top: 1px solid salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Recommends-content-4-bottom-ancor{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.Details{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.cast-details{
+}
+.cast-header{
+    margin-left: 50px;
+}
+.cast-artist{
+    width: 250px;
+    height: 90px;
+    margin-top: 25px;
+    margin-left: 65px;
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 15px;
+    background-color:rgb(251, 217, 154);
+}
+.cast-artist:hover{
+    transform: scale(1.1);
+    background-color:rgb(252, 198, 98);
+}
+.cast-artist-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.cast-artist-details-ancor{
+    text-decoration: none;
+    color: rgb(94, 93, 93);
+}
+.cast-artist-img-1{
+    width: 40%;
+    height:100%;
+    background-image: url(Lee\ Tockar.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.cast-artist-details-1{
+    width: 60%;
+    height:100%;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.cast-artist-img-2{
+    width: 40%;
+    height:100%;
+    background-image: url(Sam\ Vincent.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.cast-artist-details-2{
+    width: 60%;
+    height:100%;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.cast-artist-img-3{
+    width: 40%;
+    height:100%;
+    background-image: url(Andrew\ Francis.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.cast-artist-details-3{
+    width: 60%;
+    height:100%;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.cast-artist-img-4{
+    width: 40%;
+    height:100%;
+    background-image: url(Vincent\ Tong.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.cast-artist-details-4{
+    width: 60%;
+    height:100%;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.cast-artist-img-5{
+    width: 40%;
+    height:100%;
+    background-image: url(Daved\ Kaye.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.cast-artist-details-5{
+    width: 60%;
+    height:100%;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.cast-artist-img-6{
+    width: 40%;
+    height:100%;
+    background-image: url(Kathleen\ Barr.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.cast-artist-details-6{
+    width: 60%;
+    height:100%;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.Details-header-div{
+    margin-right: 100px;
+}
+.Details-header{
+
+}
+.Details-sub-header{
+    margin-top: 25px;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium';
+}
+.Details-header-ancor{
+    text-decoration: none;
+    color: rgb(112, 111, 111);
+    font-family: Arial;
+}
+.Details-header-ancor:hover{
+    text-decoration: underline;
+}
+.footer{
+    width: 100%;
+    height: 440px;
+    background-color: black;  
+}
+.footer-buttons{
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+}
+.footer-app-button{
+   margin: 30px;
+   border: none;
+   padding: 10px;
+   border-radius: 5px;
+   border: 1px solid white;
+   background-color: rgb(255, 221, 0);
+}
+.footer-app-button:hover{
+    background-color:  rgb(203, 176, 2);
+}
+.footer-signin-button{
+    margin: 30px;
+    border: 1px solid white;
+    padding: 10px;
+    color: rgb(244, 244, 26);
+    border-radius: 5px;
+    background-color:rgb(6, 6, 6);
+}
+.footer-signin-button:hover{
+    background-color: rgb(126, 126, 126);
+}
+.footer-icons-nav{
+
+}
+.footer-icons-items{
+    display: flex;
+    justify-content: center;
+}
+.footer-icons-links{
+    list-style: none;
+}
+.footer-icons-ancor{
+    text-decoration: none;
+    background-color: white;
+    color: #111;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 100%;
+    padding: 10px;
+}
+.footer-icons-ancor:hover{
+    background-color: #111;
+    transition: 0.5;
+}
+.footer-icons-ancor:hover i{
+    color: white;
+    transition: 0.5;
+}
+.footer-main-cont{
+    margin-top: 25px;
+}
+.footer-div{
+    word-spacing: 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.footer-ancors{
+    list-style: none;
+}
+.footer-links{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 17px;
+    font-family: 'Trebuchet MS';
+    margin-right: 20px;
+}
+.footer-links:hover{
+    text-decoration: underline;
+}
